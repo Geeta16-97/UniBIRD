@@ -1,0 +1,22 @@
+{
+  "packages": [
+    {
+      "name": "unibird",
+      "maintainer": "Ionitive Infotronix Pvt.Ltd",
+      "websiteURL": "https://ioipl.com/",
+      "platforms": [
+        {
+          "name": "UniBird",
+          "architecture": "esp8266",
+          "version": "1.0.0",
+          "boards": [
+            {"name": "UniBird"}
+          ],
+          "url": "https://github.com/Geeta16-97/UniBIRD/archive/refs/tags/UniBIRD.zip",
+          "archiveFileName": "UniBIRD.zip",
+          "checksum": "SHA-256:91545b21f7778530bbda251fe979f6626864a4db"
+        }
+      ]
+    }
+  ]
+}
