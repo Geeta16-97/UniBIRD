@@ -1,18 +1,18 @@
 {
   "packages": [
     {
-      "name": "unibird",
+      "name": "UniBIRD",
       "maintainer": "Ionitive Infotronix Pvt.Ltd",
       "websiteURL": "https://github.com/Geeta16-97/UniBIRD",
       "platforms": [
         {
-          "name": "UniBird",
+          "name": "UniBIRD",
           "architecture": "esp8266",
           "version": "1.0.0",
           "boards": [
-            {"name": "UniBird"}
+            {"name": "UniBIRD"}
           ],
-          "url": "https://github.com/Geeta16-97/UniBIRD/tree/main/releases/UniBIRD-1.0.0.zip",
+          "url": "https://github.com/Geeta16-97/UniBIRD/releases/UniBIRD-1.0.0.zip",
           "archiveFileName": "UniBIRD-1.0.0.zip",
           "checksum": "SHA-256:1ED7413E2C1B2A60EAA00244F55EF7970A50D5586DF2414F67C820C13668CA98"
         }
