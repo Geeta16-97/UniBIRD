@@ -17,32 +17,9 @@
           "size": "37346",
           "boards": [
             {"name": "UniBIRD 1.0"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "esp8266",
-              "version": "3.0.3-gcc10.3-9bcba0b",
-              "name": "xtensa-lx106-elf-gcc"
-            },
-            {
-              "packager": "esp8266",
-              "version": "3.0.3-gcc10.3-9bcba0b",
-              "name": "mkspiffs"
-            },
-            {
-              "packager": "esp8266",
-              "version": "3.0.3-gcc10.3-9bcba0b",
-              "name": "mklittlefs"
-            },
-            {
-              "packager": "esp8266",
-              "version": "3.7.2-post1",
-              "name": "python3"
-            }
           ]
         }
-      ],
-      "tools": []
+      ]
     }
   ]
 }
