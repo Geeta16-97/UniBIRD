@@ -49,6 +49,6 @@ static const uint8_t D8   = 15;
 static const uint8_t D9   = 3;
 static const uint8_t D10  = 1;
 
-#include "../generic/common.h"
+#include "common.h"
 
 #endif /* Pins_Arduino_h */

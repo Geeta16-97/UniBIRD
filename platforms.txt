@@ -81,7 +81,6 @@ compiler.elf2hex.cmd=esptool
 compiler.elf2hex.flags=
 
 compiler.size.cmd=xtensa-lx106-elf-size
-recipe.preproc.macros="\"{compiler.path}{compiler.cpp.cmd}\" -w -x c++ -E {compiler.cpp.flags} {compiler.cpp.extra_flags} {includes} \"{source_file}\" -o \"{preprocessed_file_path}\""
 
 # This can be overridden in boards.txt
 build.extra_flags=-DESP8266

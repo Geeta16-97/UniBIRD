@@ -1,6 +1,31 @@
+menu.BoardModel=UniBIRD
+menu.ESPModule=Module
+menu.UploadTool=Upload Tool
+menu.led=Builtin Led
+menu.baud=Upload Speed
+menu.xtal=CPU Frequency
+menu.CrystalFreq=Crystal Frequency
+menu.eesz=Flash Size
+menu.FlashMode=Flash Mode
+menu.FlashFreq=Flash Frequency
+menu.ResetMethod=Reset Method
+menu.dbg=Debug port
+menu.lvl=Debug Level
+menu.ip=lwIP Variant
+menu.vt=VTables
+menu.exception=C++ Exceptions
+menu.stacksmash=Stack Protection
+menu.wipe=Erase Flash
+menu.sdk=Espressif FW
+menu.ssl=SSL Support
+menu.mmu=MMU
+menu.non32xfer=Non-32-Bit Access
+
+
+##############################################################
 unibird.name=UniBIRD
-unibird.build.board=ESP8266_NODEMCU_ESP12E
-unibird.build.variant=nodemcu
+unibird.build.board=UniBIRD
+unibird.build.variant=unibird
 unibird.upload.tool=esptool
 unibird.upload.maximum_data_size=81920
 unibird.upload.wait_for_upload_port=true
@@ -12,6 +37,8 @@ unibird.build.core=esp8266
 unibird.build.spiffs_pagesize=256
 unibird.build.debug_port=
 unibird.build.debug_level=
+unibird.build.extra_flags=-DLED_BUILTIN=2 -DCUSTOM_BOARD_VARIANT
+
 unibird.menu.xtal.80=80 MHz
 unibird.menu.xtal.80.build.f_cpu=80000000L
 unibird.menu.xtal.160=160 MHz

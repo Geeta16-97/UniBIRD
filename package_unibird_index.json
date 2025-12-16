@@ -1,22 +1,48 @@
 {
   "packages": [
     {
-      "name": "UniBIRD",
-      "maintainer": "Ionitive Infotronix Pvt.Ltd",
+      "name": "Ionitive Infotronix Pvt.Ltd",
+      "maintainer": "Geeta Parmar/Ionitive Infotronix Pvt.Ltd",
       "websiteURL": "https://github.com/Geeta16-97/UniBIRD",
+      "email": "ionitive@gmail.com",
       "platforms": [
         {
           "name": "UniBIRD",
           "architecture": "esp8266",
           "version": "1.0.0",
-          "boards": [
-            {"name": "UniBIRD (1.0)"}
-          ],
+          "category": "Contributed",
+          "helpEducationSpecUrl": "https://github.com/Geeta16-97/UniBIRD",
           "url": "https://geeta16-97.github.io/UniBIRD/releases/UniBIRD-1.0.0.zip",
-          "archiveFileName": "UniBIRD-1.0.0.zip",
-          "checksum": "SHA-256:861241E9BF3D98321D9D4A49A80D49659085C7D14769FEED56AD704D0F7D1614"
+          "checksum": "SHA-256 checksum of your tar.bz2 file",
+          "size": "37346",
+          "boards": [
+            {"name": "UniBIRD 1.0"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "esp8266",
+              "version": "3.0.3-gcc10.3-9bcba0b",
+              "name": "xtensa-lx106-elf-gcc"
+            },
+            {
+              "packager": "esp8266",
+              "version": "3.0.3-gcc10.3-9bcba0b",
+              "name": "mkspiffs"
+            },
+            {
+              "packager": "esp8266",
+              "version": "3.0.3-gcc10.3-9bcba0b",
+              "name": "mklittlefs"
+            },
+            {
+              "packager": "esp8266",
+              "version": "3.7.2-post1",
+              "name": "python3"
+            }
+          ]
         }
-      ]
+      ],
+      "tools": []
     }
   ]
 }
