@@ -13,7 +13,7 @@
           "category": "Contributed",
           "helpEducationSpecUrl": "https://github.com/Geeta16-97/UniBIRD",
           "url": "https://geeta16-97.github.io/UniBIRD/releases/UniBIRD-1.0.0.zip",
-          "checksum": "25141EB39BFEF2C9800DDFBEF3BA0FC08F45455F57270F2F6DECDE2EEF3E04EE",
+          "checksum": "SHA-256:958BF6DBBAA1A6152FD224B5E1A59AAFD471834F2E5C705B922D5E9234D47FD8",
           "size": "37346",
           "boards": [
             {"name": "UniBIRD 1.0"}
