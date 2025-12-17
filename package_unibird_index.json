@@ -10,7 +10,7 @@
           "architecture": "esp8266",
           "version": "1.0.0",
           "boards": [
-            {"name": "UniBIRD (1.0)"}
+            {"name": "UniBIRD"}
           ],
           "url": "https://geeta16-97.github.io/UniBIRD/releases/UniBIRD-1.0.0.zip",
           "archiveFileName": "UniBIRD-1.0.0.zip",
