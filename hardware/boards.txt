@@ -1,4 +1,10 @@
-menu.BoardModel=UniBIRD
+#
+# Do not create pull-requests for this file only, CI will not accept them.
+# You *must* edit/modify/run boards.txt.py to regenerate boards.txt.
+# All modified files after running with option "--allgen" must be included in the pull-request.
+#
+
+menu.BoardModel=Model
 menu.ESPModule=Module
 menu.UploadTool=Upload Tool
 menu.led=Builtin Led
@@ -21,10 +27,9 @@ menu.ssl=SSL Support
 menu.mmu=MMU
 menu.non32xfer=Non-32-Bit Access
 
-
 ##############################################################
 unibird.name=UniBIRD
-unibird.build.board=UniBIRD
+unibird.build.board=UNIBIRD
 unibird.build.variant=unibird
 unibird.upload.tool=esptool
 unibird.upload.maximum_data_size=81920
@@ -37,7 +42,7 @@ unibird.build.core=esp8266
 unibird.build.spiffs_pagesize=256
 unibird.build.debug_port=
 unibird.build.debug_level=
-unibird.build.extra_flags=-DLED_BUILTIN=2 -DCUSTOM_BOARD_VARIANT
+unibird.build.extra_flags=-DESP8266 -DARDUINO_ARCH_ESP8266 -DLED_BUILTIN=2 -DCUSTOM_BOARD_VARIANT
 
 unibird.menu.xtal.80=80 MHz
 unibird.menu.xtal.80.build.f_cpu=80000000L
